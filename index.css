@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* - [ ] Link your CSS stylesheet in the `index.html` and implement a CSS reset 
+- [ ] Markup html semantically, such that it can be styled according to the given desktop image
+- [ ] Color the background of items in the navigation bar and footer with the following colors:
+  - [ ] Plan your Visit: `#FF764E`
+  - [ ] Learn About the Park: `#5ED3EB`
+  - [ ] Get Involved: `#FFCD69`
+- [ ] Change all font colors and styles according to design file
+  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- [ ] Color the background of the main text body with `#DDB9A3`
+- [ ] Color the background of the footer with `#F9E7DC`
+- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+  - [ ] A round image in the header
+  - [ ] Round corners on navigation and footer items
+  - [ ] Header image and text side by side
+  - [ ] Centered content and margins around content
+  - [ ] Footer image positioning */
+
+  * {
+    font-size: 62.5%;
+  }
+  
+  
+  body {
+    height: 800px;
+    width: 90%;
+    font-size: 2em;
+    font-family: "Roboto Mono", monospace;
+    margin: 0 auto;
+  }
+  nav {
+    width: 100%;
+    margin: 2% auto;
+    padding: 0 auto;
+    display: inline-block;
+  }
+  nav a{
+    width: 200px;
+    display: inline-block;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  b{
+    font-weight: bold;
+  }
+  .about-section{
+    background-color: #F9E7DC;
+    color: white;
+    margin: 2% auto;
+  }
+  header{
+    display: inline-block;
+  }
+  .header-block{
+    margin: 0 auto;
+    float: right;
+  }
+  h1 {
+    font-size: 8rem;
+    font-family: "Chelsea Market", cursive;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem auto;
+  }
+  header p {
+    width: 30%;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem auto;
+  }
+  section.learn-section{
+    width: 40%;
+    margin: 0 auto;
+  }
+  section img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  img{
+    margin: 0 auto;
+  }
+  header img{
+    border-radius: 50%;
+    width:25%;
+    float: left;
+  }
+
+  .plan{
+    background-color: #FF764E;
+  }
+  .learn{
+    background-color: #5ED3EB;
+  }
+  .involved{
+    background-color: #FFCD69;
+  }
+
+  footer {
+    background-color: #F9E7DC;
+    height: 100%;
+    margin: 2rem auto;
+  }
+  footer img{
+    height: 75%;
+    width: 100%;
+  }
